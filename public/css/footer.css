@@ -1,0 +1,12 @@
+body {
+    position: relative;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #d8bb94;
+    color: #ffffff;
+    padding: 20px;
+}

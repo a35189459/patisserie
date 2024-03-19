@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding-bottom: 50px;
+    border-radius: 2%;
+    box-shadow: 8px 8px #88888892;
+    background: #f8e6cda1;
+    height: auto;
+    overflow-y: auto;
+}
+
+.content {
+    display: none;
+}
+
+.active {
+    display: block;
+    padding: 10px;
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.active input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    border: 1px solid #b2b2b2;
+    text-align: center;
+}
+
+.change {
+    margin-bottom: 10px;
+    border-radius: 0 10% 0 0;
+    width: 20%;
+}
+
+.change-active {
+    background: #b88440;
+    color: #fffafa;
+}
+
+.change button {
+    width: 80%;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 15px;
+    margin: 10px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.change button:hover {
+    background: #7a4601;
+    color: #fffafa;
+    cursor: pointer;
+}
+
+/* 用戶資訊 */
+.account-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.account-list tbody tr td {
+    padding: 20px;
+}
+
+.account-list thead,
+.order h3 {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #7a4601;
+}
+
+/* 訂單資訊 */
+.order {
+    border-bottom: 1px #837ab873 solid;
+    margin: 10px;
+    text-align: center;
+}
+
+.order table {
+    width: 100%;
+}
+
+.order table tr td,
+.order table tr th {
+    padding: 10px;
+}
+
+.order h3 {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #7a4601;
+}
+
+.order p {
+    margin: 20px 10px;
+    display: inline-block;
+}

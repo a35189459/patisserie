@@ -1,0 +1,28 @@
+.content {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.content hr {
+    margin: 20px;
+}
+.content ul li {
+    margin: 10px;
+    list-style: circle;
+}
+.content ol li {
+    margin: 10px;
+    list-style: decimal;
+}
+.content-item h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #cf9312;
+    text-align: center;
+}
+.content-item h4 {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}

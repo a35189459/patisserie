@@ -1,0 +1,98 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border-radius: 2%;
+    box-shadow: 8px 8px #88888892;
+    background: #ffe6c582;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+
+.content {
+    display: none;
+}
+
+.active {
+    display: block;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.active input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    border: 1px solid #b2b2b2;
+    text-align: center;
+}
+
+.send-btn button {
+    width: 30%;
+    padding: 10px;
+    border: 0;
+    background: #b88440;
+    color: white;
+    border-width: bold;
+    font-size: 18px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+
+.change {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 0 10% 0 0;
+}
+
+.change-active {
+    background: #b88440;
+    color: #fffafa;
+}
+
+.change button {
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #b88440;
+}
+
+.change button:hover {
+    background: #b88440;
+    color: #fffafa;
+    cursor: pointer;
+}
+
+.password-input {
+    position: relative;
+    display: inline-block;
+}
+
+.password-input input {
+    padding-right: 30px;
+    /* 留出空間來容納按鈕 */
+}
+
+.password-input button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-75%);
+    border: 0;
+    background: #fffafa;
+    color: #b88440;
+}

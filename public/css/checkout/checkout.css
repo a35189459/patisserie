@@ -1,0 +1,72 @@
+.content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #804213;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    background: #dd7f38;
+    color: #fff;
+}
+
+.checkout-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checkout-items li {
+    padding: 5px;
+}
+
+.checkout-items li:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.checkout-items li span {
+    display: inline-block;
+    width: calc(25% - 10px);
+    /* 四等份寬度，減去 padding */
+    text-align: center;
+}
+
+#totalCartPrice span {
+    margin: 20px 0;
+    font-size: 20px;
+    display: inline-block;
+    /* 兩等份寬度，減去 padding */
+    width: calc(50% - 10px);
+    text-align: center;
+    color: #f59b56;
+}
+
+.checkoutForm input {
+    margin-bottom: 20px;
+}
+
+.checkoutForm textarea {
+    height: 285px;
+}
+
+.required-field {
+    color: red;
+}
+
+.checkBtn {
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    background: #6c5010;
+}
